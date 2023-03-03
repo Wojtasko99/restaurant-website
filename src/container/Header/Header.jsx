@@ -4,7 +4,7 @@ import './Header.css';
 import {SubHeading} from '../../components/index';
 
 const Header = () => (
-  <div className='app__header'>
+  <div className='app__header section__padding' id='home'>
     <div className='app_header-container'>
       <div className='app_header-container-side-text'>
         <p>#Bar</p>

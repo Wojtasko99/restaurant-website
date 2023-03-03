@@ -1,0 +1,80 @@
+.app__header{
+    display: flex;
+    background: var(--color-black);
+}
+
+.app_header-container{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.app_header-container-side-text{
+    width: 100%;
+    font-display: flex;
+    justify-content: space-between;
+    flex: 0.5;
+}
+
+.app_header-container-side-text p{
+    font-family: var(--font-alt);
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 175%;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
+    transform: rotate(-90deg);
+    margin-bottom: 5rem;
+}
+
+.app_header-container-header{
+    margin: 3rem;
+    flex: 2;
+}
+
+.app_header-container-header h1{
+    font-family: var(--font-base);
+    font-weight: 700;
+    font-size: 90px;
+    line-height: 130%;
+    letter-spacing: 0.04em;
+    text-transform: capitalize;
+    color: #DCCA87;
+    max-width: 600px;
+    margin-bottom: 2rem;
+}
+
+.app_header-container-header p{
+    font-family: var(--font-alt);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 175%;
+    letter-spacing: 0.04em;
+    color: var(--color-grey);
+    margin-bottom: 2rem;
+    max-width: 500px;
+}
+
+.app_header-container-header button{
+    background: var(--color-golden);
+    padding: 1rem;
+
+    font-family: var(--font-base);
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 175%;
+    letter-spacing: 0.04em;
+    color: var(--color-black);
+    cursor: pointer;
+}
+
+.app_header-container-image{
+    flex: 2;
+}
+
+.app_header-container-image img{
+    width: 100%;
+    height: 100%;
+}
+
