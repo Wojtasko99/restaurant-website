@@ -1,0 +1,12 @@
+.app__subheading-container h3{
+    font-family: var(--font-base);
+    font-weight: 700;
+    font-size: 23px;
+    line-height: 130%;
+    letter-spacing: 0.04em;
+    text-transform: capitalize;
+    font-feature-settings: 'tnum' on, 'lnum' on;
+    color: #FFFFFF;
+
+
+}
