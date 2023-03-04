@@ -1,11 +1,10 @@
 import React from 'react';
 import images from '../../constants/images';
-import './SubHeading.css';
-const SubHeading = () => (
+const SubHeading = (props) => (
   <div className='app__subheading'>
     <div className='app__subheading-container'>
-        <h3>Chase the new Flavour</h3>
-        <img aria-disabled src={images.spoon}/>
+        <h3 className="p__cormorant">{props.text}</h3>
+        <img aria-disabled src={images.spoon} className="spoon__img"/>
     </div>
   </div>
 );

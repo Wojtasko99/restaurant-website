@@ -11,7 +11,7 @@ const Header = () => (
         <p>#Gericht</p>
       </div>
       <div className='app_header-container-header'>
-        <SubHeading />
+        <SubHeading text="Chase the new Flavour"/>
         <h1>The key to Fine dining</h1>
         <p>Sit tellus lobortis sed senectus vivamus molestie. Condimentum volutpat morbi facilisis quam scelerisque sapien. Et, penatibus aliquam amet tellus </p>
         <button type='button'>Explore Menu</button>
