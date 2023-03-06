@@ -1,10 +1,12 @@
 import React from 'react';
 
 import './Footer.css';
+import { Newsletter, FooterOverlay } from '../../components';
 
 const Footer = () => (
-  <div>
-    Footer
+  <div className='app__footer app__bg'>
+    <Newsletter />
+    <FooterOverlay />
   </div>
 );
 

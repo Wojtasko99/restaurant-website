@@ -20,7 +20,7 @@ const SpecialMenu = () => (
         <MenuItem name="Rhino Pale Ale" type="CA | 750 ml" price="$31"/>
         <MenuItem name="Irish Guinness" type="IE | 750 ml" price="$26"/>
       </div>
-      <div className='app__specialmenu-menu-image'>
+      <div className='app__specialmenu-menu-image app__wrapper-img'>
         <img alt="image" src={images.menu}/>
       </div>
       <div className='app__specialmenu-menu-items'>
